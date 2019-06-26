@@ -36,3 +36,12 @@ function changebackgroundcolor() {
         }
     }
 }
+var shoes, list; 
+shoes =["heels", "tennis shoes", "sandals", "pumas"];
+
+function showArray(){
+    document.getElementById("length").innerHTML = shoes.length; 
+    document.getElementById("firstelement").innerHTML = shoes[0];
+    document.getElementById("secondelement").innerHTML = shoes[1];
+    document.getElementById("fourthelement").innerHTML = shoes[3];
+}
