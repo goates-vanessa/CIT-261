@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="styles/short.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Manipulating CSS Class Properties using JavaScript</title>
+        <meta name="description" content="Assignment for validation 
+        of manipulating css class properties using JavaScript">
+    </head>
+    <body>
+        <header>
+            <h1>Click on who you would like to learn more about!</h1>
+        </header>
+        <div class="background-style">
+            <div class="grid">
+            <h2 onclick="changeCss(0)">
+                Ammon
+            </h2>
+            <div class="arrow"></div>
+            </div>
+           <ul class="noshow">
+               <li>
+                   Father: Mosiah
+               </li>
+               <li>
+                   People he taught: Lamoni and his people
+               </li>
+               <li>
+                   Significant identifier: He cut people's arms off
+               </li>
+               
+           </ul>
+        </div>
+        <div class="background-style">
+            <div class="grid">
+            <h2 onclick="changeCss(1)">
+                Aaron
+            </h2>
+            <div class="arrow"></div>
+            </div>
+            <ul class="noshow">
+                <li>
+                    Father: Mosiah
+                </li>
+                <li>
+                    People he taught: King Lamoni's Father
+                </li>
+                <li>
+                    Significant identifier: Ammon rescued him from jail in the land of Middoni
+                </li>
+                
+            </ul>
+        </div>
+        <div class="background-style">
+            <div class="grid">
+            <h2 onclick="changeCss(2)">
+                Alma
+            </h2>
+            <div class="arrow"></div>
+            </div>
+            <ul class="noshow">
+                <li>
+                    Father: Alma the Elder
+                </li>
+                <li>
+                    People he taught: The Nephites
+                </li>
+                <li>
+                    Significant identifier: He gave up the judgement seat to preach the word of God to the Nephites
+                </li>
+                
+            </ul>
+        </div>
+        <div class="secondchange">
+            <h2 onclick="changebackgroundcolor()">
+                Click on Me!
+            </h2>
+        </div>
+    </body>
+    <script src="scripts/class-changes2.js"></script>
+</html>
