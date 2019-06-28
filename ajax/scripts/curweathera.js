@@ -43,3 +43,5 @@ weatherRequest4.onload = function() {
         document.getElementById("fourth-current").innerHTML = weatherData.weather[0].main;
         document.getElementById("fourth-temp").innerHTML = weatherData.main.temp; 
                         }
+                    
+        

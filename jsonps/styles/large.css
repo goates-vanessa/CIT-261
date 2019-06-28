@@ -1,0 +1,134 @@
+@media only screen and (min-width: 1024px) {
+    .hams {
+        display:none; 
+    }
+    .links li {
+        display:inline;
+    }
+    .links {
+        list-style-type:none;  
+        overflow:hidden;
+        margin: 0 auto; 
+        padding: 0; 
+        flex-direction: row; 
+        justify-content: space-around;
+        align-items: center; 
+        align-self: auto; 
+    }
+   nav li a  {
+       display:block; 
+       text-align: center; 
+       padding: 14px 16px; 
+   }
+   .templeslist {
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;  
+    font-family: 'PT Serif', serif; 
+}
+
+.wideimg {
+    width: 80%; 
+    display: block; 
+    margin: 0 auto; 
+   
+}
+figure {
+    text-align: center; 
+}
+.templeslistres {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.reservationform{
+    background-color: #92C591;
+    padding: 20px;
+    font-family: 'PT Serif', serif; 
+    width: 95%;
+    margin: 0 auto;  
+}
+#templelist-home{
+    display:grid; 
+    grid-template-columns: repeat(4, 1fr); 
+}
+.home {
+    display:grid; 
+    grid-template-columns: 1fr 2fr 1fr; 
+} 
+}
+@media only screen and (max-width: 1024px) {
+
+    .templeslist {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        font-family: 'PT Serif', serif; 
+    }
+    .wideimg {
+        width: 100%; 
+    }
+    .tallimg {
+        width:85%; 
+    }
+    .templeslistres {
+        display:grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+    .home {
+        display:grid; 
+        grid-template-columns: 1fr 2fr 1fr; 
+    } 
+
+}
+@media only screen and (max-width: 760px) {
+
+    .templeslist {
+        display:grid;
+        grid-template-columns: 1fr;
+        font-family: 'PT Serif', serif; 
+    }
+    
+    .wideimg {
+        width: 100%; 
+    }
+    .tallimg {
+        width:100%
+    }
+    .templeslistres {
+        display:grid;
+        grid-template-columns: 1fr; 
+    }
+    .flexhead {
+        display:flex; 
+        flex-direction: column-reverse; 
+        justify-content: center; 
+        align-items: center; 
+        background-color: #559E54; 
+        width: calc(95% - 5px);
+        text-align: center;
+        padding:5px;
+        margin: 0 auto; 
+    }
+    #breakfastimages {
+        display:flex; 
+        flex-direction: column;
+    }
+    #famimages {
+        display:flex; 
+        flex-direction:column;
+    }
+   .links2{ 
+        display:flex; 
+        flex-direction: column;
+        justify-content: space-around;
+        list-style-type: none; 
+        text-decoration: none;  
+        margin: 0 auto; 
+        padding: 0; 
+        align-items: center; 
+        align-self: auto; 
+   }
+   .home {
+    display:grid; 
+    grid-template-columns: 1fr; 
+}
+}
