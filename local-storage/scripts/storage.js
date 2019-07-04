@@ -1,4 +1,4 @@
-document.getElementById("exTwo").innerHTML = "My full name is:" + localStorage.user.fullName();
+document.getElementById("exTwo").innerHTML = "My full name is:" + localStorage.getItem("user").fullName();
 
 function showArray(){
     document.getElementById("length").innerHTML = localStorage.getItem("favorites").length; 
