@@ -1,4 +1,6 @@
-document.getElementById("exTwo").innerHTML = "My full name is:" +JSON.parse(localStorage.getItem("user")).fullName();
+
+var z = JSON.parse(localStorage.getItem("user")); 
+document.getElementById("exTwo").innerHTML = "My full name is:" + z.firstName + " " + z.lastName;
 
 var y = JSON.parse(localStorage.getItem("favorites")); 
 function showArray(){

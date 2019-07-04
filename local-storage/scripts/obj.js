@@ -1,12 +1,9 @@
 var person = {
     firstName: "Vanessa",
     lastName: "Goates", 
-    age: 28, 
-    fullName: function() {
-        return this.firstName + " " + this.lastName; 
-    }
-
-}; 
+    age: 28
+    };
+    
 document.getElementById("out").innerHTML = "My full name is:" + person.fullName();
 
 function Person(first, last, age, eye) {
