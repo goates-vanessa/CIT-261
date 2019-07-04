@@ -45,3 +45,4 @@ function showArray(){
     document.getElementById("secondelement").innerHTML = shoes[1];
     document.getElementById("fourthelement").innerHTML = shoes[3];
 }
+
