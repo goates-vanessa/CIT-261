@@ -3,8 +3,8 @@ var person = {
     lastName: "Goates", 
     age: 28
     };
-    
-document.getElementById("out").innerHTML = "My full name is:" + person.fullName();
+
+document.getElementById("out").innerHTML = "My full name is:" + person.firstName + " " + person.lastName;
 
 function Person(first, last, age, eye) {
     this.firstName = first; 
