@@ -54,6 +54,6 @@ function showArray(){
 }
 
 
- localStorage.user = person; 
- localStorage.counter = anArray; 
- localStorage.favorites = shoes; 
+ localStorage.user = JSON.stringify(person); 
+ localStorage.counter = JSON.stringify(anArray); 
+ localStorage.favorites = JSON.stringify(shoes); 

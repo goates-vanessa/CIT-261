@@ -1,14 +1,16 @@
-document.getElementById("exTwo").innerHTML = "My full name is:" + localStorage.getItem("user").fullName();
+document.getElementById("exTwo").innerHTML = "My full name is:" +JSON.parse(localStorage.getItem("user")).fullName();
 
+var y = JSON.parse(localStorage.getItem("favorites")); 
 function showArray(){
-    document.getElementById("length").innerHTML = localStorage.getItem("favorites").length; 
-    document.getElementById("firstelement").innerHTML = localStorage.getItem("favorites")[0];
-    document.getElementById("secondelement").innerHTML = localStorage.getItem("favorites")[1];
-    document.getElementById("fourthelement").innerHTML = localStorage.getItem("favorites")[3];
+    document.getElementById("length").innerHTML = y.length; 
+    document.getElementById("firstelement").innerHTML = y[0];
+    document.getElementById("secondelement").innerHTML = y[1];
+    document.getElementById("fourthelement").innerHTML =y[2];
 }
 
-document.getElementById("exOnea").innerHTML = localStorage.getItem("counter")["one"];
+var x = JSON.parse(localStorage.getItem("counter")); 
+document.getElementById("exOnea").innerHTML =x["one"];
 
-document.getElementById("exOneb").innerHTML = localStorage.counter["two"];
+document.getElementById("exOneb").innerHTML =x["two"];
 
-document.getElementById("exOnec").innerHTML = localStorage.counter["three"]; 
+document.getElementById("exOnec").innerHTML = x["three"]; 
